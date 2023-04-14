@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { MdDragHandle } from "react-icons/md";
-import { Link } from "react-router-dom";
+// import { MdDragHandle } from "react-icons/md";
+// import { Link } from "react-router-dom";
 
 const ProductInfo = ({ id }) => {
   const [info, setInfo] = useState({});
@@ -26,7 +26,7 @@ const ProductInfo = ({ id }) => {
             console.log(classInfo[0]);
           });
       });
-  }, []);
+  }, [id]);
 
   const handleColor = (productId) => {
     window.location.href = `/product/${productId}`;

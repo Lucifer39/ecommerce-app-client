@@ -29,7 +29,7 @@ const Clothing = () => {
                 onMouseOver={() => setArrowVisible(link)}
                 onMouseOut={() => setArrowVisible("")}
               >
-                {link} {link == arrowVisible && <BsArrowRight className="clothing-list-arrow" />}
+                {link} {link === arrowVisible && <BsArrowRight className="clothing-list-arrow" />}
               </li>
             );
           })}
