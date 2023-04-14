@@ -1,5 +1,14 @@
 [[redirects]]
-  from = "*"
-  to = "https://frightened-bee-cuff-links.cyclic.app/"
+  from = "/api/*"
+  to = "https://frightened-bee-cuff-links.cyclic.app:4000/:splat"
   status = 200
-  force = true
+
+[[redirects]]
+  from = "/auth/*"
+  to = "https://frightened-bee-cuff-links.cyclic.app:4001/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/get/*"
+  to = "https://frightened-bee-cuff-links.cyclic.app:4002/:splat"
+  status = 200
