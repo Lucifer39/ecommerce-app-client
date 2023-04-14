@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "*"
+  to = "https://frightened-bee-cuff-links.cyclic.app/"
+  status = 200
+  force = true
